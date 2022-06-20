@@ -2,3 +2,6 @@
     display: inline-flex;
     justify-content: center;
 }
+.char{
+    margin: 10px 40px;
+}
