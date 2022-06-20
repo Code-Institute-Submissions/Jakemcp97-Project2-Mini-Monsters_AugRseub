@@ -2,9 +2,11 @@
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
+    border:1px red;
 }
 .char{
     margin: 10px 40px;
+    border:2px;
 }
 #geralt{
     height:250px;
