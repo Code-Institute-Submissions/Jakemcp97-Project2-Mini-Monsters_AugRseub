@@ -21,7 +21,19 @@
  height: 400px;
  width: 350px;
 }
+.stats button{
+    background-color: white;
+    border: 3px solid;
+    font: 24px impact;
+    font-weight:bold;
+    padding: 12px 20px;
+}
+.stats button:hover{
+    background-color: aqua;
+    color:white;
+}
 .healthLabel{
+    margin: top 15px;
     font:18px;
     font-weight: bold;
 }
