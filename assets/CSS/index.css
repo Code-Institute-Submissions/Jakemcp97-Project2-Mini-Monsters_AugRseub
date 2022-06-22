@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     border:15px solid red;
+    align-items: flex-end;
 }
 .char{
     margin: 10px 40px;
@@ -19,7 +20,8 @@
     font:20px impact;
 }
 .stats{
-width: 350px;
+ height: 400px;
+ width: 350px;
  border: 1px solid;
  border-color: coral;
 }
