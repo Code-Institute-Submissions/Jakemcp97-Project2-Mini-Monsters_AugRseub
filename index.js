@@ -25,7 +25,7 @@ function slash(){
     if(hitChance <= 7 ){
         var dmg = Math.round(Math.random()*10)*10;
         enemyHp -= dmg;
-        if (enemyHp<0) {
+        if (enemyHp < 0) {
             enemyHp = 0;
         }
         var enemyHpBarWidth = (enemyHp/100)*300;
@@ -34,7 +34,8 @@ function slash(){
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
     }
-    if(enemyHp = 0){
+
+    if(enemyHp == 0){
         buttons.style.visibility = "invisible";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
     }
