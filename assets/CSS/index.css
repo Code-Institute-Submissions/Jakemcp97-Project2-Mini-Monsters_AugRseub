@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    background-color: grey;
 }
 .char{
     margin: 10px 40px;
@@ -16,10 +17,12 @@
 #bottom{
     padding: 30px;
     font:20px impact;
+    text-align: center;
 }
 .stats{
  height: 400px;
  width: 350px;
+ visibility: hidden;
 }
 .stats button{
     background-color: white;
@@ -40,7 +43,7 @@
 .hpBorder{
     width:350px;
     height: 30px;
-    border: 2px solid;
+    border:300px;
 }
 .hpBar{
     width: 300px;
