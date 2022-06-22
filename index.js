@@ -3,7 +3,8 @@ var bottomRow = document.getElementById('bottom');
 var stats = document.getElementsByClassName('stats');
 var heroStats = document.getElementById('heroStats');
 var geraltHp = document.getElementById('geraltHp');
-var pookaHp = document.getElementById('pookaHp';)
+var pookaHp = document.getElementById('pookaHp');
+var buttons = document.getElementsByClassName('buttonStyle');
 
 //health variables
 var heroHp = 100;
@@ -24,10 +25,17 @@ function slash(){
     if(hitChange < 7 ){
         var dmg = Math.round(Math.random()*10)*10;
         enemyHp -= dmg;
-        var enemyHpBarWidth = 
-        pookaHp.style.width = 
+        if (enemyHp<0) {
+            enemyHp = 0;
+        }
+        var enemyHpBarWidth = (enemyHp/100)*300;
+        pookaHp.style.width = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + "hit points remaining!";
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
+    }
+    if(enemyHp = 0){
+        buttons.style.visibility = "invisible";
+        bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
     }
 }
