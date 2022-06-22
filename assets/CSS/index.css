@@ -28,7 +28,7 @@
 .hpBorder{
     width:350px;
     height: 30px;
-    border: 2px;
+    border: 2px solid;
 }
 .hpBar{
     width: 300px;
