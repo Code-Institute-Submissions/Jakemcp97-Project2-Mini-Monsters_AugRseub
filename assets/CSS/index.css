@@ -31,7 +31,7 @@
     font-weight:bold;
     padding: 12px 20px;
 }
-.stats button:hover{
+.buttonStyle:hover{
     background-color: aqua;
     color:white;
 }
