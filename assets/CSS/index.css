@@ -16,10 +16,24 @@
 }
 #bottom{
     padding: 30px;
-
+    font:20px impact;
 }
 .stats{
 width: 350px;
  border: 1px solid;
  border-color: coral;
+}
+.healthLabel{
+    font:18px;
+    font-weight: bold;
+}
+.hpBorder{
+    width:350px;
+    height: 30px;
+    border: 2px;
+}
+.hpBar{
+    width: 350px;
+    height: 30px;
+    background-color: green;
 }
