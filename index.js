@@ -4,7 +4,7 @@ var stats = document.getElementsByClassName('stats');
 var heroStats = document.getElementById('heroStats');
 var geraltHp = document.getElementById('geraltHp');
 var pookaHp = document.getElementById('pookaHp');
-var buttons = document.getElementById('startFight');
+var buttons = document.getElementById('battleStart');
 
 //health variables
 var heroHp = 100;
@@ -35,7 +35,7 @@ function slash(){
         bottomRow.innerHTML = "The Pooka dodged your attack!";
     }
 
-    if(enemyHp == 0){
+    if(enemyHp === 0){
         buttons.style.visibility = "invisible";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
     }
