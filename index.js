@@ -4,7 +4,7 @@ var stats = document.getElementsByClassName('stats');
 var heroStats = document.getElementById('heroStats');
 var geraltHp = document.getElementById('geraltHp');
 var pookaHp = document.getElementById('pookaHp');
-var buttons = document.getElementsByClassName('buttonStyle');
+var buttons = document.getElementById('startFight');
 
 //health variables
 var heroHp = 100;
