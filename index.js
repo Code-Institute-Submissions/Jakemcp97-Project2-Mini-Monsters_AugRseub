@@ -36,9 +36,7 @@ function slash(){
     }
 
     if(enemyHp === 0){
-        for(var x = 0; x < stats.length; x++){
-            stats[x].style.visibility = "invisible";
-        }
+        buttons.style.visibility = "hidden";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
     }
 }
