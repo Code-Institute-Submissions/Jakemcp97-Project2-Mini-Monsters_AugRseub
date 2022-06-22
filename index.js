@@ -15,7 +15,7 @@ function startFight(){
 bottomRow.innerHTML="Choose your action to defeat the Pooka!";
 // for loop to reveal the stats
 for(var x = 0; x < stats.length; x++){
-    stats[x].stats.visibility = "visible";
+    stats[x].style.visibility = "visible";
 }
 }
 
