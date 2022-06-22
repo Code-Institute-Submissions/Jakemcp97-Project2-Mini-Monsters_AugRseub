@@ -23,7 +23,7 @@ for(var x = 0; x < stats.length; x++){
 function slash(){
     var hitChance = Math.round(Math.random()*10);
     if(hitChance <= 7 ){
-        var dmg = Math.round(Math.random()*10)*10;
+        var dmg = Math.round(Math.random()*10)+10;
         enemyHp -= dmg;
         if (enemyHp < 0) {
             enemyHp = 0;
