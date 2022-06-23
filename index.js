@@ -32,7 +32,7 @@ function enemyAttack(){
             heroHp = 0;
         }
         var heroHpBarWidth = (heroHp/100)*300;
-        pookaHp.style.width = heroHpBarWidth + "px";
+        geraltHp.style.width = heroHpBarWidth + "px";
         bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML = "You evaded the Pookas attack!";
