@@ -159,5 +159,6 @@ function restart(){
     geraltHp.style.width = heroHpBarWidth + "px";
     var enemyHpBarWidth = (enemyHp/100)*300;
     pookaHp.style.width = enemyHpBarWidth + "px";
+    dead.style.transform = "rotate(0deg)";
     startFight();
 }
