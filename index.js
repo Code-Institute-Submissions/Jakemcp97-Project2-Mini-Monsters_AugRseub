@@ -20,6 +20,17 @@ for(var x = 0; x < stats.length; x++){
 }
 }
 
+//enemy attack function
+function enemyAttack(){
+    var attackChoice = Math.ceil(Math.random()*3);
+    if(attackChoice == 1){
+
+    }else if (attackChoice == 2) {
+        
+    }else{
+        
+    }
+}
 //basic attack function
 function slash(){
     var hitChance = Math.round(Math.random()*10);
@@ -42,5 +53,7 @@ function slash(){
         }
         dead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
+    }else{
+
     }
 }
