@@ -73,7 +73,7 @@ function enemyAttack(){
             stats[x].style.visibility = "hidden";
         }
         dead.style.transform = "rotate(90deg)";
-        bottomRow.innerHTML += "<br>You've fallen at the hands of the Pooka!!";
+        bottomRow.innerHTML += "<br>You've fallen at the hands of the Pooka!!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
     }
 }
 //basic attack function
@@ -97,8 +97,17 @@ function slash(){
             stats[x].style.visibility = "hidden";
         }
         dead.style.transform = "rotate(90deg)";
-        bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
+        bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
     }else{
         enemyAttack();
     }
+}
+function restart(){
+    heroHp=100;
+    enemyHp=100;
+    var heroHpBarWidth = (heroHp/100)*300;
+    geraltHp.style.width = heroHpBarWidth + "px";
+    var enemyHpBarWidth = (enemyHp/100)*300;
+    pookaHp.style.width = enemyHpBarWidth + "px";
+    startFight();
 }
