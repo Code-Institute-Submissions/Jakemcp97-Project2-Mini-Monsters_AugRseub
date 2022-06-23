@@ -6,6 +6,7 @@ var geraltHp = document.getElementById('geraltHp');
 var pookaHp = document.getElementById('pookaHp');
 var buttons = document.getElementById('actions');
 var dead = document.getElementById('pooka');
+var hdead = document.getElementById('geralt');
 
 //health variables
 var heroHp = 100;
@@ -65,6 +66,13 @@ function enemyAttack(){
         }else{
             bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
         }
+        if(heroHp === 0){
+            for(var x = 0; x < stats.length; x++){
+                stats[x].style.visibility = "hidden";
+            }
+            dead.style.transform = "rotate(90deg)";
+            bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
+        }
     }
 }
 //basic attack function
@@ -90,6 +98,6 @@ function slash(){
         dead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
     }else{
-
+        enemyAttack();
     }
 }
