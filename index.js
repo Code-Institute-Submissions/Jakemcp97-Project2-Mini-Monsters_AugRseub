@@ -33,37 +33,37 @@ function enemyAttack(){
         }
         var heroHpBarWidth = (heroHp/100)*300;
         geraltHp.style.width = heroHpBarWidth + "px";
-        bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
+        bottomRow.innerHTML += "<br>The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
     }else{
-        bottomRow.innerHTML = "You evaded the Pookas attack!";
+        bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
     }
     }else if (attackChoice == 2) {
         var hitChance = Math.round(Math.random()*10);
-        if(hitChance <= 7 ){
-            var dmg = Math.round(Math.random()*10)+10;
+        if(hitChance <= 5 ){
+            var dmg = Math.round(Math.random()*10)+15;
             heroHp -= dmg;
             if (heroHp < 0) {
                 heroHp = 0;
             }
             var heroHpBarWidth = (heroHp/100)*300;
             geraltHp.style.width = heroHpBarWidth + "px";
-            bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
+            bottomRow.innerHTML += "<br>The Pooka possessed you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
-            bottomRow.innerHTML = "You evaded the Pookas attack!";
+            bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
         }
     }else{
         var hitChance = Math.round(Math.random()*10);
-        if(hitChance <= 7 ){
-            var dmg = Math.round(Math.random()*10)+10;
+        if(hitChance <= 1){
+            var dmg = Math.round(Math.random()*20)+20;
             heroHp -= dmg;
             if (heroHp < 0) {
                 heroHp = 0;
             }
             var heroHpBarWidth = (heroHp/100)*300;
             geraltHp.style.width = heroHpBarWidth + "px";
-            bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
+            bottomRow.innerHTML += "<br>The Pooka spat ectoplasm at you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
-            bottomRow.innerHTML = "You evaded the Pookas attack!";
+            bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
         }
     }
 }
