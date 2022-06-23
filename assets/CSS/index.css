@@ -41,8 +41,9 @@
 }
 .healthLabel{
     margin: top 15px;
-    font:18px;
+    font:20px;
     font-weight: bold;
+    color:aqua;
 }
 .hpBorder{
     width:350px;
