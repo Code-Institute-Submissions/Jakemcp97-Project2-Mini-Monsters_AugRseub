@@ -39,31 +39,31 @@ function enemyAttack(){
     }
     }else if (attackChoice == 2) {
         var hitChance = Math.round(Math.random()*10);
-    if(hitChance <= 7 ){
-        var dmg = Math.round(Math.random()*10)+10;
-        enemyHp -= dmg;
-        if (enemyHp < 0) {
-            enemyHp = 0;
+        if(hitChance <= 7 ){
+            var dmg = Math.round(Math.random()*10)+10;
+            heroHp -= dmg;
+            if (heroHp < 0) {
+                heroHp = 0;
+            }
+            var heroHpBarWidth = (heroHp/100)*300;
+            geraltHp.style.width = heroHpBarWidth + "px";
+            bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
+        }else{
+            bottomRow.innerHTML = "You evaded the Pookas attack!";
         }
-        var enemyHpBarWidth = (enemyHp/100)*300;
-        pookaHp.style.width = enemyHpBarWidth + "px";
-        bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
-    }else{
-        bottomRow.innerHTML = "The Pooka dodged your attack!";
-    }
     }else{
         var hitChance = Math.round(Math.random()*10);
         if(hitChance <= 7 ){
             var dmg = Math.round(Math.random()*10)+10;
-            enemyHp -= dmg;
-            if (enemyHp < 0) {
-                enemyHp = 0;
+            heroHp -= dmg;
+            if (heroHp < 0) {
+                heroHp = 0;
             }
-            var enemyHpBarWidth = (enemyHp/100)*300;
-            pookaHp.style.width = enemyHpBarWidth + "px";
-            bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
+            var heroHpBarWidth = (heroHp/100)*300;
+            geraltHp.style.width = heroHpBarWidth + "px";
+            bottomRow.innerHTML = "The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
-            bottomRow.innerHTML = "The Pooka dodged your attack!";
+            bottomRow.innerHTML = "You evaded the Pookas attack!";
         }
     }
 }
