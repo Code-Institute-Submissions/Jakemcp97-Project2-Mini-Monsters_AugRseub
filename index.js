@@ -72,7 +72,7 @@ function enemyAttack(){
         for(var x = 0; x < stats.length; x++){
             stats[x].style.visibility = "hidden";
         }
-        dead.style.transform = "rotate(90deg)";
+        hdead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've fallen at the hands of the Pooka!!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
     }
 }
@@ -137,7 +137,7 @@ function dropkick(){
         }
         var enemyHpBarWidth = (enemyHp/100)*300;
         pookaHp.style.width = enemyHpBarWidth + "px";
-        bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
+        bottomRow.innerHTML = "You run and 2 footed dropkick the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
     }
@@ -160,5 +160,6 @@ function restart(){
     var enemyHpBarWidth = (enemyHp/100)*300;
     pookaHp.style.width = enemyHpBarWidth + "px";
     dead.style.transform = "rotate(0deg)";
+    hdead.style.transform = "rotate(0deg)";
     startFight();
 }
