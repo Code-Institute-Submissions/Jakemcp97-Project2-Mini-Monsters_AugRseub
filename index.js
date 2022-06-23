@@ -66,13 +66,14 @@ function enemyAttack(){
         }else{
             bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
         }
-        if(heroHp === 0){
-            for(var x = 0; x < stats.length; x++){
-                stats[x].style.visibility = "hidden";
-            }
-            dead.style.transform = "rotate(90deg)";
-            bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!";
+        
+    }
+    if(heroHp === 0){
+        for(var x = 0; x < stats.length; x++){
+            stats[x].style.visibility = "hidden";
         }
+        dead.style.transform = "rotate(90deg)";
+        bottomRow.innerHTML += "<br>You've fallen at the hands of the Pooka!!";
     }
 }
 //basic attack function
