@@ -18,6 +18,7 @@
     height:250px;
 }
 #bottom{
+    border: 2px solid black;
     padding: 30px;
     font:20px impact;
     text-align: center;
