@@ -8,6 +8,8 @@
 }
 .char{
     margin: 10px 40px;
+    display: flex;
+    align-items: flex-end;
 }
 #geralt{
     height:250px;
