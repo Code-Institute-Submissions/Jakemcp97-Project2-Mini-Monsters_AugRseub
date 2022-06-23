@@ -102,6 +102,56 @@ function slash(){
         enemyAttack();
     }
 }
+function fireblast(){
+    var hitChance = Math.round(Math.random()*10);
+    if(hitChance <= 5 ){
+        var dmg = Math.round(Math.random()*20)+20;
+        enemyHp -= dmg;
+        if (enemyHp < 0) {
+            enemyHp = 0;
+        }
+        var enemyHpBarWidth = (enemyHp/100)*300;
+        pookaHp.style.width = enemyHpBarWidth + "px";
+        bottomRow.innerHTML = "You cast a fireblast at the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
+    }else{
+        bottomRow.innerHTML = "The Pooka dodged your attack!";
+    }
+
+    if(enemyHp === 0){
+        for(var x = 0; x < stats.length; x++){
+            stats[x].style.visibility = "hidden";
+        }
+        dead.style.transform = "rotate(90deg)";
+        bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
+    }else{
+        enemyAttack();
+    }
+}
+function dropkick(){
+    var hitChance = Math.round(Math.random()*10);
+    if(hitChance <= 2){
+        var dmg = Math.round(Math.random()*50)+50;
+        enemyHp -= dmg;
+        if (enemyHp < 0) {
+            enemyHp = 0;
+        }
+        var enemyHpBarWidth = (enemyHp/100)*300;
+        pookaHp.style.width = enemyHpBarWidth + "px";
+        bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
+    }else{
+        bottomRow.innerHTML = "The Pooka dodged your attack!";
+    }
+
+    if(enemyHp === 0){
+        for(var x = 0; x < stats.length; x++){
+            stats[x].style.visibility = "hidden";
+        }
+        dead.style.transform = "rotate(90deg)";
+        bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
+    }else{
+        enemyAttack();
+    }
+}
 function restart(){
     heroHp=100;
     enemyHp=100;
