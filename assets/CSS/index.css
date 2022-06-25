@@ -6,6 +6,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    width: auto;
     background-image: url('../images/pixforest.jpg');
     background-size: contain;
 }
@@ -67,6 +68,7 @@ ul{
 }
 li{
     float: left;
+    border: 2px solid black;
 }
 li a{
     display: block;
