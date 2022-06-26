@@ -1,6 +1,7 @@
 body{
     background-color: green;
     font-family: fantasy;
+    width: auto;
 }
 #top{
     display: flex;
