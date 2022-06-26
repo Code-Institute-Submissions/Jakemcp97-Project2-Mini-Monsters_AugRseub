@@ -13,9 +13,7 @@ body{
     background-image: url('../images/altback.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    right:0;
-    left:0;
-    
+
 }
 .char{
     margin: 10px 10px;
@@ -41,7 +39,7 @@ body{
 }
 .stats{
  height: 400px;
- width: auto;
+ width: 100vw;
  visibility: hidden;
 }
 .buttonStyle{
