@@ -8,7 +8,7 @@ body{
     align-items: flex-end;
     width: 100%;
     overflow-x: hidden;
-    background-image: url('../images/pixforest.jpg');
+    background-image: url('../images/altback.jpg');
     background-size: contain;
 }
 .char{
