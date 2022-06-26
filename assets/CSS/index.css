@@ -71,7 +71,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 li{
     float: left;
@@ -79,6 +79,7 @@ li{
     font-size: 15px;
     color: white;
     text-align: center;
+    display: block;
 }
 li a{
     display: block;
