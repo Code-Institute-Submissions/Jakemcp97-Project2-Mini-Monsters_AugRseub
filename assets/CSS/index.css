@@ -49,9 +49,9 @@ body{
 }
 .healthLabel{
     margin: top 15px;
-    font:20px;
+    font:30px;
     font-weight: bold;
-    color:aqua;
+    color:red;
 }
 .hpBorder{
     width:30px;
@@ -61,7 +61,7 @@ body{
 .hpBar{
     width: 30px;
     height: 300px;
-    background-color: green;
+    background-color: red;
 }
 ul{
     list-style-type: none;
