@@ -51,9 +51,9 @@ body{
     color:aqua;
 }
 .hpBorder{
-    width:350px;
-    height: 30px;
-    border:300px;
+    width:30px;
+    height: 300px;
+    border:auto;
 }
 .hpBar{
     width: 30px;
@@ -92,8 +92,9 @@ li a:hover{
 		width:100%;
 	}
 }
-#controls span{
+#controls {
     display: inline-block;
     border:2px solid black;
     visibility: hidden;
+    justify-content: center;
 }
