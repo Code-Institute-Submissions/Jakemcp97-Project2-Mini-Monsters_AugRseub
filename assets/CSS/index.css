@@ -20,7 +20,6 @@ body{
     height: auto;
     display: flex;
     align-items: flex-end;
-    position: absolute;
 }
 #geralt{
     height:250px;
