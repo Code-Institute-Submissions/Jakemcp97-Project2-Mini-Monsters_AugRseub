@@ -127,14 +127,17 @@ form{
     text-align: left;
 }
 .descriptions{
-display: inline;
-text-align:left;
+display: inline-block;
+vertical-align:top;
 font-size: large;
 color: white;
 }
 .descriptions img{
     float: left;
+    display: inline;
 }
 .descriptions p{
+    display: inline;
     float: right;
+    font-size: large;
 }
