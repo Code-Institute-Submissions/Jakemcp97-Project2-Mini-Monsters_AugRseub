@@ -108,6 +108,17 @@ li a:hover{
 	footer{
 		width:100%;
 	}
+    @media only screen and (min-device-width: 480px){
+        body{
+            width:99%;
+        }
+        #top{
+            width: 100%;
+        }
+        footer{
+            width:100%;
+        }
+    }
 }
 #controls {
     display: flex;
