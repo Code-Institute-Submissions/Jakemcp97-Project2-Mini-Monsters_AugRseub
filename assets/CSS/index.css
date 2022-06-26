@@ -8,11 +8,12 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    width: 99%;
+    width: 100vw;
     overflow-x: hidden;
     background-image: url('../images/altback.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
 
 }
 .char{
