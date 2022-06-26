@@ -33,6 +33,7 @@ body{
     color: white;
     font-family: fantasy;
     text-align: center;
+    background-color: black;
 }
 .stats{
  height: 400px;
