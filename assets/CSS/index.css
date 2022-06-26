@@ -6,7 +6,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    width: 100%;
+    width: 99%;
     overflow-x: hidden;
     background-image: url('../images/altback.jpg');
     background-size: cover;
