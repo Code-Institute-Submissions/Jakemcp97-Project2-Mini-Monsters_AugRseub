@@ -29,7 +29,7 @@ body{
 #bottom{
     border: 2px solid black;
     padding: 30px;
-    font:20px impact;
+    font:20px white;
     font-family: fantasy;
     text-align: center;
 }
@@ -51,7 +51,7 @@ body{
 }
 .healthLabel{
     margin: top 15px;
-    font:30px;
+    font:30px fantasy;
     font-weight: bold;
     color:red;
 }
