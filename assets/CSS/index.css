@@ -18,14 +18,14 @@ body{
 }
 .char{
     margin: 10px 15px;
-    width:150px;
+    width:130px;
     height: auto;
     display: flex;
     align-items: flex-end;
 }
 #geralt{
     height:250px;
-    width:180px;
+    width:200px;
 }
 #pooka{
     height:250px;
