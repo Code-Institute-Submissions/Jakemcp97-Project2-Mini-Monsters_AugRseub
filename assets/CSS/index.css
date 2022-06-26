@@ -13,6 +13,7 @@ body{
     background-image: url('../images/altback.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position:absolute;
 }
 .char{
     margin: 10px 10px;
