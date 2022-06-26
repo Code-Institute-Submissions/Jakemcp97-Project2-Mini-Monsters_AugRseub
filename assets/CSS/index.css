@@ -128,7 +128,7 @@ form{
 }
 .descriptions{
 display: inline;
-vertical-align: top;
+text-align:left;
 font-size: large;
 color: white;
 }
