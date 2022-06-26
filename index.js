@@ -33,7 +33,7 @@ function enemyAttack(){
             heroHp = 0;
         }
         var heroHpBarWidth = (heroHp/100)*300;
-        geraltHp.style.width = heroHpBarWidth + "px";
+        geraltHp.style.height = heroHpBarWidth + "px";
         bottomRow.innerHTML += "<br>The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
@@ -47,7 +47,7 @@ function enemyAttack(){
                 heroHp = 0;
             }
             var heroHpBarWidth = (heroHp/100)*300;
-            geraltHp.style.width = heroHpBarWidth + "px";
+            geraltHp.style.height = heroHpBarWidth + "px";
             bottomRow.innerHTML += "<br>The Pooka possessed you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
             bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
@@ -61,7 +61,7 @@ function enemyAttack(){
                 heroHp = 0;
             }
             var heroHpBarWidth = (heroHp/100)*300;
-            geraltHp.style.width = heroHpBarWidth + "px";
+            geraltHp.style.height = heroHpBarWidth + "px";
             bottomRow.innerHTML += "<br>The Pooka spat ectoplasm at you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
             bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
@@ -86,7 +86,7 @@ function slash(){
             enemyHp = 0;
         }
         var enemyHpBarWidth = (enemyHp/100)*300;
-        pookaHp.style.width = enemyHpBarWidth + "px";
+        pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
@@ -111,7 +111,7 @@ function fireblast(){
             enemyHp = 0;
         }
         var enemyHpBarWidth = (enemyHp/100)*300;
-        pookaHp.style.width = enemyHpBarWidth + "px";
+        pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You cast a fireblast at the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
@@ -136,7 +136,7 @@ function dropkick(){
             enemyHp = 0;
         }
         var enemyHpBarWidth = (enemyHp/100)*300;
-        pookaHp.style.width = enemyHpBarWidth + "px";
+        pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You run and 2 footed dropkick the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
         bottomRow.innerHTML = "The Pooka dodged your attack!";
@@ -156,9 +156,9 @@ function restart(){
     heroHp=100;
     enemyHp=100;
     var heroHpBarWidth = (heroHp/100)*300;
-    geraltHp.style.width = heroHpBarWidth + "px";
+    geraltHp.style.height = heroHpBarWidth + "px";
     var enemyHpBarWidth = (enemyHp/100)*300;
-    pookaHp.style.width = enemyHpBarWidth + "px";
+    pookaHp.style.height = enemyHpBarWidth + "px";
     dead.style.transform = "rotate(0deg)";
     hdead.style.transform = "rotate(0deg)";
     startFight();
