@@ -68,6 +68,9 @@ body{
     height: 300px;
     background-color: red;
 }
+#heroStats{
+    margin-left:5px;
+}
 ul{
     list-style-type: none;
     margin: 0;
