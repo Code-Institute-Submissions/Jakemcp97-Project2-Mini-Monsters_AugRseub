@@ -126,3 +126,8 @@ form{
     margin-right: auto;
     text-align: left;
 }
+.descriptions{
+display: inline-block;
+font-size: large;
+color: white;
+}
