@@ -59,12 +59,12 @@ body{
     color:red;
 }
 .hpBorder{
-    width:30px;
+    width:15px;
     height: 300px;
     border:auto;
 }
 .hpBar{
-    width: 30px;
+    width: 15px;
     height: 300px;
     background-color: red;
 }
