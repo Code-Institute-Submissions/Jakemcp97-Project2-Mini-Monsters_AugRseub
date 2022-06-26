@@ -1,5 +1,6 @@
 body{
     background-color: #333;
+    font-family: fantasy;
 }
 #top{
     display: flex;
@@ -29,6 +30,7 @@ body{
     border: 2px solid black;
     padding: 30px;
     font:20px impact;
+    font-family: fantasy;
     text-align: center;
 }
 .stats{
@@ -39,7 +41,7 @@ body{
 .buttonStyle{
     background-color: white;
     border: 3px solid;
-    font: 24px impact;
+    font: 24px fantasy;
     font-weight:bold;
     padding: 12px 20px;
 }
