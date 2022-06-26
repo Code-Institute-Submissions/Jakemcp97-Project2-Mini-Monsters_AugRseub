@@ -56,7 +56,7 @@ body{
     border:300px;
 }
 .hpBar{
-    width: auto;
+    width: 30px;
     height: 300px;
     background-color: green;
 }
