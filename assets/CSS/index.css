@@ -95,4 +95,5 @@ li a:hover{
 #controls span{
     display: inline-block;
     border:2px solid black;
+    visibility: hidden;
 }

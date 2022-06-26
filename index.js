@@ -7,6 +7,7 @@ var pookaHp = document.getElementById('pookaHp');
 var buttons = document.getElementById('actions');
 var dead = document.getElementById('pooka');
 var hdead = document.getElementById('geralt');
+var newcontrols = document.getElementById('controls');
 
 //health variables
 var heroHp = 100;
@@ -18,6 +19,7 @@ bottomRow.innerHTML="Choose your action to defeat the Pooka!";
 // for loop to reveal the stats
 for(var x = 0; x < stats.length; x++){
     stats[x].style.visibility = "visible";
+    newcontrols.style.visibility = "visible";
 }
 }
 
@@ -71,6 +73,7 @@ function enemyAttack(){
     if(heroHp === 0){
         for(var x = 0; x < stats.length; x++){
             stats[x].style.visibility = "hidden";
+            newcontrols.style.visibility = "hidden";
         }
         hdead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've fallen at the hands of the Pooka!!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
@@ -95,6 +98,7 @@ function slash(){
     if(enemyHp === 0){
         for(var x = 0; x < stats.length; x++){
             stats[x].style.visibility = "hidden";
+            newcontrols.style.visibility = "hidden";
         }
         dead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
@@ -120,6 +124,7 @@ function fireblast(){
     if(enemyHp === 0){
         for(var x = 0; x < stats.length; x++){
             stats[x].style.visibility = "hidden";
+            newcontrols.style.visibility = "hidden";
         }
         dead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
@@ -145,6 +150,7 @@ function dropkick(){
     if(enemyHp === 0){
         for(var x = 0; x < stats.length; x++){
             stats[x].style.visibility = "hidden";
+            newcontrols.style.visibility = "hidden";
         }
         dead.style.transform = "rotate(90deg)";
         bottomRow.innerHTML += "<br>You've defeated the Pooka and saved the village!<br><button onClick='restart()' class='buttonStyle'>Restart?</button>";
