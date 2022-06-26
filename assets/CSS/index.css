@@ -134,10 +134,10 @@ color: white;
 }
 .descriptions img{
     float: left;
-    display: inline;
+    display: inline-flex;
 }
 .descriptions p{
-    display: inline;
+    display: inline-flex;
     float: right;
     font-size: large;
 }
