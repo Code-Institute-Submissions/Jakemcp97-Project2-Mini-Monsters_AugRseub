@@ -40,7 +40,6 @@ body{
  height: 400px;
  width: auto;
  visibility: hidden;
- position: relative;
 }
 .buttonStyle{
     background-color: white;
