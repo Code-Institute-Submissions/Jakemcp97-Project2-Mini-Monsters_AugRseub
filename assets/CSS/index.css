@@ -134,6 +134,7 @@ color: white;
 }
 .descriptions img{
     float: left;
+    width: 200px;
     display: inline-flex;
 }
 .descriptions p{
