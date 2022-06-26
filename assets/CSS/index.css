@@ -132,3 +132,9 @@ vertical-align: top;
 font-size: large;
 color: white;
 }
+.descriptions img{
+    float: left;
+}
+.descriptions p{
+    float: right;
+}
