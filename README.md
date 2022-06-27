@@ -9,12 +9,19 @@ I intended on focusing more on the backend of this website and succeeded in doin
 
 ## Features
 ### Navbar
-
+!(assets/images/navbar.png)
+A simple navbar was added to allow the user to move through the various pages on the site.
 ### The mini game
+!(assets/images/game0.png) !(assets/images/game1.png)
+The major feature of this site is the mini game. It uses an abundance of javascript and really stretched my knowledge of the language. It appears initially in a hidden state and upon user interaction reveals the controls and game console. It features 3 attack options for the user to interact with, each programmed with a chance to miss. Upon attacking the enemy, the enemy has been programmed to respond in kind and attempt an attack on the player character. This also has a chance to miss, which can leave some rounds as a stalemate. 
 
 ### About page
+!(assets/images/about.png)
+The about page is majorly filler with a simple description of each of the games characters. 
 
 ### User feedback form
+!(assets/images/userform.png)
+A simple user form was added to allow for further user interaction. 
 
 ## Testing
 
