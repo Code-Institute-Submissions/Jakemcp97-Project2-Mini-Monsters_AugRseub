@@ -28,8 +28,11 @@ A simple user form was added to allow for further user interaction.
 ### Validator testing
 
 ### HTML 
+Using the W3 validator i tested my 3 HTML pages and cleared any errors that were showing up.
 ### CSS
+Using the W3 jigsaw CSS validator i ran my code and cleaned up any errors that occured. 
 ### Javascript
+I tested my javascript using both Jshint and Beautify. Through both of these sites i fixed several issues with the exception of my functions. They throw an error in Jshint and Beautify as not being used however they are used in the HTML DOM. 
 
 ### User testing
 
