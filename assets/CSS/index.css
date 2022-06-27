@@ -30,7 +30,7 @@ body{
     height:250px;
 }
 #bottom{
-    border: 2px solid black;
+    border: 2px solid;
     padding: 30px;
     font:20px;
     color: white;
