@@ -34,15 +34,21 @@ The about page is majorly filler with a simple description of each of the games 
 A simple user form was added to allow for further user interaction. 
 
 ## Testing
+
 As this is my first javascript project, there was a lot of internal testing to make sure functions and variables were being handled correctly. Below are some of the more official tests i put the site through to ensure it was professionally functional. 
 
 ### Validator testing
 
 ### HTML 
+
 Using the W3 validator i tested my 3 HTML pages and cleared any errors that were showing up.
+
 ### CSS
+
 Using the W3 jigsaw CSS validator i ran my code and cleaned up any errors that occured. 
+
 ### Javascript
+
 I tested my javascript using both Jshint and Beautify. Through both of these sites i fixed several issues with the exception of my functions. They throw an error in Jshint and Beautify as not being used however they are used in the HTML DOM. 
 
 ### User testing
