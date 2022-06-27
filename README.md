@@ -5,22 +5,22 @@ The mini monsters battle game was my idea for this project that i originally pla
 ## UX
 I initially started designing my UX on pen and paper and roughly transcribed my ideas onto balsamiq as you can see below. 
 I intended on focusing more on the backend of this website and succeeded in doing so because as you can on the live site, its not as pretty as it could be. Mainly, i wanted a functional little game that would get some endorphins flowing when you click to win! 
-(https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/wireframe.png)
+![ux imgs](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/wireframe.png)
 
 ## Features
 ### Navbar
-(https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/navbar.png)
+![Navbar](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/navbar.png)
 A simple navbar was added to allow the user to move through the various pages on the site.
 ### The mini game
-(https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/game0.png) (https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/game1.png)
+![game 0 state](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/game0.png) ![game 1 state](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/game1.png)
 The major feature of this site is the mini game. It uses an abundance of javascript and really stretched my knowledge of the language. It appears initially in a hidden state and upon user interaction reveals the controls and game console. It features 3 attack options for the user to interact with, each programmed with a chance to miss. Upon attacking the enemy, the enemy has been programmed to respond in kind and attempt an attack on the player character. This also has a chance to miss, which can leave some rounds as a stalemate. 
 
 ### About page
-(https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/about.png)
+![About](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/about.png)
 The about page is majorly filler with a simple description of each of the games characters. 
 
 ### User feedback form
-(https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/userform.png)
+![userform](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/userform.png)
 A simple user form was added to allow for further user interaction. 
 
 ## Testing
