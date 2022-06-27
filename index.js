@@ -1,10 +1,8 @@
 //global variables
 var bottomRow = document.getElementById('bottom');
 var stats = document.getElementsByClassName('stats');
-var heroStats = document.getElementById('heroStats');
 var geraltHp = document.getElementById('geraltHp');
 var pookaHp = document.getElementById('pookaHp');
-var buttons = document.getElementById('actions');
 var dead = document.getElementById('pooka');
 var hdead = document.getElementById('geralt');
 var newcontrols = document.getElementById('controls');
@@ -27,7 +25,7 @@ for(var x = 0; x < stats.length; x++){
 function enemyAttack(){
     var attackChoice = Math.ceil(Math.random()*3);
     if(attackChoice == 1){
-        var hitChance = Math.round(Math.random()*10);
+         hitChance = Math.round(Math.random()*10);
     if(hitChance <= 7 ){
         var dmg = Math.round(Math.random()*10)+10;
         heroHp -= dmg;
@@ -41,28 +39,28 @@ function enemyAttack(){
         bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
     }
     }else if (attackChoice == 2) {
-        var hitChance = Math.round(Math.random()*10);
+         hitChance = Math.round(Math.random()*10);
         if(hitChance <= 5 ){
-            var dmg = Math.round(Math.random()*10)+15;
+             dmg = Math.round(Math.random()*10)+15;
             heroHp -= dmg;
             if (heroHp < 0) {
                 heroHp = 0;
             }
-            var heroHpBarWidth = (heroHp/100)*300;
+             heroHpBarWidth = (heroHp/100)*300;
             geraltHp.style.height = heroHpBarWidth + "px";
             bottomRow.innerHTML += "<br>The Pooka possessed you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
             bottomRow.innerHTML += "<br>You evaded the Pookas attack!";
         }
     }else{
-        var hitChance = Math.round(Math.random()*10);
+         hitChance = Math.round(Math.random()*10);
         if(hitChance <= 1){
-            var dmg = Math.round(Math.random()*20)+20;
+             dmg = Math.round(Math.random()*20)+20;
             heroHp -= dmg;
             if (heroHp < 0) {
                 heroHp = 0;
             }
-            var heroHpBarWidth = (heroHp/100)*300;
+             heroHpBarWidth = (heroHp/100)*300;
             geraltHp.style.height = heroHpBarWidth + "px";
             bottomRow.innerHTML += "<br>The Pooka spat ectoplasm at you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
@@ -81,7 +79,7 @@ function enemyAttack(){
 }
 //basic attack function
 function slash(){
-    var hitChance = Math.round(Math.random()*10);
+     hitChance = Math.round(Math.random()*10);
     if(hitChance <= 7 ){
         var dmg = Math.round(Math.random()*10)+10;
         enemyHp -= dmg;
@@ -107,7 +105,7 @@ function slash(){
     }
 }
 function fireblast(){
-    var hitChance = Math.round(Math.random()*10);
+     hitChance = Math.round(Math.random()*10);
     if(hitChance <= 5 ){
         var dmg = Math.round(Math.random()*20)+20;
         enemyHp -= dmg;
@@ -133,7 +131,7 @@ function fireblast(){
     }
 }
 function dropkick(){
-    var hitChance = Math.round(Math.random()*10);
+     hitChance = Math.round(Math.random()*10);
     if(hitChance <= 2){
         var dmg = Math.round(Math.random()*50)+50;
         enemyHp -= dmg;
@@ -161,9 +159,9 @@ function dropkick(){
 function restart(){
     heroHp=100;
     enemyHp=100;
-    var heroHpBarWidth = (heroHp/100)*300;
+    heroHpBarWidth = (heroHp/100)*300;
     geraltHp.style.height = heroHpBarWidth + "px";
-    var enemyHpBarWidth = (enemyHp/100)*300;
+    enemyHpBarWidth = (enemyHp/100)*300;
     pookaHp.style.height = enemyHpBarWidth + "px";
     dead.style.transform = "rotate(0deg)";
     hdead.style.transform = "rotate(0deg)";
