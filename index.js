@@ -6,7 +6,7 @@ var pookaHp = document.getElementById('pookaHp');
 var dead = document.getElementById('pooka');
 var hdead = document.getElementById('geralt');
 var newcontrols = document.getElementById('controls');
-var hitchance;
+var hitChance;
 var heroHpBarWidth;
 var enemyHpBarWidth;
 var dmg;
