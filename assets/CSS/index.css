@@ -62,7 +62,7 @@ body{
 .hpBorder{
     width:15px;
     height: 300px;
-    border:auto;
+    border:1px;
 }
 .hpBar{
     width: 15px;
@@ -110,7 +110,7 @@ li a:hover{
 	footer{
 		width:100%;
 	}
-    @media only screen and (min-device-width: 480px){
+    @media only screen and (min-width: 480px){
         body{
             width:99%;
         }
