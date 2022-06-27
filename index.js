@@ -6,6 +6,10 @@ var pookaHp = document.getElementById('pookaHp');
 var dead = document.getElementById('pooka');
 var hdead = document.getElementById('geralt');
 var newcontrols = document.getElementById('controls');
+var hitchance;
+var heroHpBarWidth;
+var enemyHpBarWidth;
+var dmg;
 
 //health variables
 var heroHp = 100;
@@ -27,12 +31,12 @@ function enemyAttack(){
     if(attackChoice == 1){
          hitChance = Math.round(Math.random()*10);
     if(hitChance <= 7 ){
-        var dmg = Math.round(Math.random()*10)+10;
+         dmg = Math.round(Math.random()*10)+10;
         heroHp -= dmg;
         if (heroHp < 0) {
             heroHp = 0;
         }
-        var heroHpBarWidth = (heroHp/100)*300;
+         heroHpBarWidth = (heroHp/100)*300;
         geraltHp.style.height = heroHpBarWidth + "px";
         bottomRow.innerHTML += "<br>The Pooka haunted you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
     }else{
@@ -46,7 +50,7 @@ function enemyAttack(){
             if (heroHp < 0) {
                 heroHp = 0;
             }
-             heroHpBarWidth = (heroHp/100)*300;
+            heroHpBarWidth = (heroHp/100)*300;
             geraltHp.style.height = heroHpBarWidth + "px";
             bottomRow.innerHTML += "<br>The Pooka possessed you causing "+ dmg +" damage! You now have "+ heroHp + " hit points remaining!";
         }else{
@@ -81,12 +85,12 @@ function enemyAttack(){
 function slash(){
      hitChance = Math.round(Math.random()*10);
     if(hitChance <= 7 ){
-        var dmg = Math.round(Math.random()*10)+10;
+         dmg = Math.round(Math.random()*10)+10;
         enemyHp -= dmg;
         if (enemyHp < 0) {
             enemyHp = 0;
         }
-        var enemyHpBarWidth = (enemyHp/100)*300;
+         enemyHpBarWidth = (enemyHp/100)*300;
         pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You slashed the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
@@ -107,12 +111,12 @@ function slash(){
 function fireblast(){
      hitChance = Math.round(Math.random()*10);
     if(hitChance <= 5 ){
-        var dmg = Math.round(Math.random()*20)+20;
+        dmg = Math.round(Math.random()*20)+20;
         enemyHp -= dmg;
         if (enemyHp < 0) {
             enemyHp = 0;
         }
-        var enemyHpBarWidth = (enemyHp/100)*300;
+        enemyHpBarWidth = (enemyHp/100)*300;
         pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You cast a fireblast at the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
@@ -133,12 +137,12 @@ function fireblast(){
 function dropkick(){
      hitChance = Math.round(Math.random()*10);
     if(hitChance <= 2){
-        var dmg = Math.round(Math.random()*50)+50;
+        dmg = Math.round(Math.random()*50)+50;
         enemyHp -= dmg;
         if (enemyHp < 0) {
             enemyHp = 0;
         }
-        var enemyHpBarWidth = (enemyHp/100)*300;
+        enemyHpBarWidth = (enemyHp/100)*300;
         pookaHp.style.height = enemyHpBarWidth + "px";
         bottomRow.innerHTML = "You run and 2 footed dropkick the Pooka causing "+ dmg +" damage! The pooka has "+ enemyHp + " hit points remaining!";
     }else{
