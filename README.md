@@ -79,6 +79,7 @@ As a game, i feel there is no real limit to the improvements you could make but 
 -Adding more enemy characters. 
 -Adding some intricate animations based on the attacks chosen. 
 -Varying stages and attack patterns.  
+-Addition of a soundtrack.
 
 ## Deployment
 
