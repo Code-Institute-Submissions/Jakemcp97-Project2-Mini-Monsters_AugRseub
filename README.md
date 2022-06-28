@@ -35,7 +35,9 @@ A simple user form was added to allow for further user interaction.
 
 ## Testing
 
-As this is my first javascript project, there was a lot of internal testing to make sure functions and variables were being handled correctly. Below are some of the more official tests i put the site through to ensure it was professionally functional. 
+![lighthouse-image](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/lighthosue.png)
+
+As this is my first javascript project, there was a lot of internal testing to make sure functions and variables were being handled correctly. Below are some of the more official tests i put the site through to ensure it was professionally functional. As can be seen in the lighthouse capture above, the site functions at a decent level more than likely thanks to its simplicity. 
 
 ### Validator testing
 
