@@ -55,6 +55,7 @@ I tested my javascript using both Jshint and Beautify. Through both of these sit
 
 -Users experienced difficulty with first image layout, finding the harsh contrasts to be hard on the eyes and as such a redesign was implemented. 
 - Users were finding the game text to be quite hard to distinguish and so a brighter more obvious color was employed. 
+-based on my own testing of about 50 run throughs of the game, it would be very hard to get 2 results the same meaning there is a lot of replayability and the code will function indefinitely. 
 
 ### Bugs and errors
 
