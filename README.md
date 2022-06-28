@@ -3,7 +3,7 @@
 The mini monsters battle game was my idea for this project that i originally planned to center around a pokemon style battle game. I very quickly learned that the scope i was reaching for with the time i had was not going to work well together, leading me to create this much lighter adaptation of turn based combat. I have, in this game, pitted 2 pixel art characters against each other allowing the user to play the slightly more powerful of the 2. The site is currently live here: [Mini monsters Github pages](https://jakemcp97.github.io/Project2-Mini-Monsters/index.html)
 ![Siteimage](https://github.com/Jakemcp97/Project2-Mini-Monsters/blob/main/assets/images/site%20images.png)
 
-## UX
+## UX design
 
 I initially started designing my UX on pen and paper and roughly transcribed my ideas onto balsamiq as you can see below. 
 I intended on focusing more on the backend of this website and succeeded in doing so because as you can on the live site, its not as pretty as it could be. Mainly, i wanted a functional little game that would get some endorphins flowing when you click to win! 
@@ -53,10 +53,43 @@ I tested my javascript using both Jshint and Beautify. Through both of these sit
 
 ### User testing
 
+-Users experienced difficulty with first image layout, finding the harsh contrasts to be hard on the eyes and as such a redesign was implemented. 
+- Users were finding the game text to be quite hard to distinguish and so a brighter more obvious color was employed. 
+
 ### Bugs and errors
+
+Several bugs occured over the duration of this project: 
+-Solved bugs:
+HP bar not adjusting on health loss. 
+Images not moving to indicate a "dead" state. 
+HitChance variable not calculating a number correctly. 
+Several div arrangement issues. 
+"Bottom" div not producing correct text. 
+Media queries not encompassing the whole page.
+several link issues. 
+font styling issues. 
+
+-Unsolved bugs:
+On much smaller mobile screens, the health bars will overflow off the screen. 
+Enemy HP bar clips over the enemy character image.(has been worked on extensively but given time constraints this will have to be fixed post submission)
 
 ### Future improvements
 
+As a game, i feel there is no real limit to the improvements you could make but personally i would like to focus on the following:
+-Adding more enemy characters. 
+-Adding some intricate animations based on the attacks chosen. 
+-Varying stages and attack patterns.  
+
 ## Deployment
 
+This website was hosted on Githubpages.io. 
+This was completed by accessing the github pages section of my project on github and launching the page based on the following guide: https://docs.github.com/en/pages/quickstart
+
 ## Credits
+
+w3schools for constant reference. 
+Codeinstitute lessons for further reference. 
+Stack Overflow for solving bizzarely specific problems. 
+github pages for hosting. 
+Pintrest for source of game images. 
+https://www.youtube.com/user/primustimus for useful guides on the type of code for building a game and the mathmatics behind it. 
