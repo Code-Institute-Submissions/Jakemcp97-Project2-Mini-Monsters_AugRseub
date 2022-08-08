@@ -91,9 +91,14 @@ This was completed by accessing the github pages section of my project on github
 
 ## Credits
 
-w3schools for constant reference. 
+w3schools for constant reference - https://www.w3schools.com
+
 Codeinstitute lessons for further reference. 
-Stack Overflow for solving bizzarely specific problems. 
-github pages for hosting. 
-Pintrest for source of game images. 
+
+Stack Overflow for solving bizzarely specific problems - https://codeinstitute.net/ie/
+
+github pages for hosting - https://github.com
+
+Pintrest for source of game images - https://www.pinterest.com
+
 https://www.youtube.com/user/primustimus for useful guides on the type of code for building a game and the mathmatics behind it. 
