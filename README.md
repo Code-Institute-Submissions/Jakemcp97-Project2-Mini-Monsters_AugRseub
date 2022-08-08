@@ -86,8 +86,13 @@ As a game, i feel there is no real limit to the improvements you could make but 
 
 ## Deployment
 
-This website was hosted on Githubpages.io. 
-This was completed by accessing the github pages section of my project on github and launching the page based on the following guide: https://docs.github.com/en/pages/quickstart
+- I created a github repository and built the website in this repository using visual studio code, commiting and syncing the changes directly from my IDE. 
+- I navigated to the settings section on my repository once i was prepared to deploy the site. 
+- I selected the "code and automation" section in the sidebar and selected pages. 
+- I then entered the "build and deployment" section and chose the deploy from branch option as my source. I chose the main branch to deploy as this is where i created the site. 
+- I then saved these options using the save button below these options. 
+- Once i had these settings adjusted, I deployed the site using the deploy button at the top of the Pages settings section. 
+
 
 ## Credits
 
